@@ -4,36 +4,36 @@ font-family: 'Comfortaa', sans-serif;
 /* color scheme is Hex: 333D51 / D3AC2B / CBD0D8 / F4F3EA */
 
 #heads {
-    background-color: #333D51; 
-    Color: #D3AC2B; 
+    Color: #333D51; 
     height: 200px;
     padding: 10px;
-    border-radius: 20px; 
-    }
-
-h1 {
+    box-align: center;
     font-weight: bold; 
-    font-family: 'Barlow Condensed', sans-serif; 
-    font-size: 80px; 
-}
+    font-family:  'Barlow Condensed', sans-serif;; 
+    font-size: 90px; 
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -100px;
 
-#subhead{
-    font-family: 'barlow condensed', sans-serif;
-    font-size: 20px;
-    text-decoration: underline;
-    margin-top: 5px;
-    }
+        }
+
 
 #welcome{
-   background-color: #F4F3EA;
    color: #333D51;
-   box-shadow: 10em;
-   width: 45%;
+   box-shadow:  2px 2px 3px 4px #ccc;
+   width: 300px;
+   height: 200px;
    box-align: left;
    padding: 5px;
    text-align: left;
-   border: solid 333D51 10px;
    border-radius: 5px;
-   margin-right: 5px;
-   margin-left: 5px;
+   margin-top: 200px;
+    }
+
+   .accent{
+       font-style: italic;
+       font-weight: bold;
+       color: #333D51;
+       text-transform: uppercase;
+
    }
