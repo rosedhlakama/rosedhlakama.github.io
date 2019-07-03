@@ -1,5 +1,6 @@
 body {
-font-family: 'Comfortaa', sans-serif; 
+font-family: 'Comfortaa', Georgia, sans-serif; 
+color: #333D51;
 }
 /* color scheme is Hex: 333D51 / D3AC2B / CBD0D8 / F4F3EA */
 
@@ -9,25 +10,41 @@ font-family: 'Comfortaa', sans-serif;
     padding: 10px;
     box-align: center;
     font-weight: bold; 
-    font-family:  'Barlow Condensed', sans-serif;; 
-    font-size: 90px; 
+    font-family:  "Lucida Bright", Georgia, serif; 
+    font-size: 80px; 
     text-align: center;
     text-transform: uppercase;
-    margin-top: -100px;
-
+    margin-top: -50px;
+    box-align: center;
+       
         }
-
+        h1{ border-bottom: 2px solid #D3AC2B;
+            height: 220px;
+            
+        }
+#tag{
+    text-align: center;
+    box-align: center;
+    font-style: italic;
+    margin-top: 70px;
+    color: #333D51;
+    font-size: 30px;
+}
+/* try to get a line to seperate the header form the body of the homepage */
 
 #welcome{
    color: #333D51;
-   box-shadow:  2px 2px 3px 4px #ccc;
-   width: 300px;
+   width: 350px;
    height: 200px;
-   box-align: left;
-   padding: 5px;
-   text-align: left;
-   border-radius: 5px;
-   margin-top: 200px;
+   box-align: right;
+   float: right;
+   padding: 10px;
+   text-align: right;
+   margin-top: 120px;
+   font-weight: 100;
+   border-radius: 10px;
+   margin-right: 50px;
+   box-shadow: 2px 2px 3px 4px #CBD0D8;
     }
 
    .accent{
@@ -37,3 +54,38 @@ font-family: 'Comfortaa', sans-serif;
        text-transform: uppercase;
 
    }
+   #quote {
+       font-style: italic;
+       text-align: center;
+       font-weight: lighter;
+       font-size: 12px;
+       }
+.summaries {
+margin-left: 50px;
+width: 900px;
+position: relative;
+margin-top: 100px;
+border-right: 2px solid #CBD0D8;
+}
+#sumone{
+    padding: 10px;
+}
+.sumhead{
+    font-weight: bold;
+    color: #333D51;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.title{
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #D3AC2B;
+    font-size: 20px;
+    margin-top: 0px;
+    }
+.sumpara{
+    color: #333D51;
+    font-size: 15px;
+    font-weight: lighter
+}    
