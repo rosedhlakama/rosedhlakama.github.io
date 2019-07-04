@@ -3,9 +3,8 @@ font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
 color: #333D51;
 }
 /* color scheme is Hex: 333D51 / D3AC2B / CBD0D8 / F4F3EA */
-p{ font-family: "Futura", "Trebuchet MS", Arial, sans-serif;
-font-weight: lighter;
-}
+
+
 #heads {
     Color: #333D51; 
     height: 200px;
@@ -17,18 +16,17 @@ font-weight: lighter;
     text-align: center;
     text-transform: uppercase;
     margin-top: -50px;
-    box-align: center;
-       
+    box-align: center; 
         }
-        h1{ border-bottom: 2px solid #D3AC2B;
-            height: 220px;
-            
+        h1{
+    border-bottom: 2px solid #D3AC2B;
+    height: 220px;   
         }
 #tag{
     text-align: center;
     box-align: center;
     font-style: italic;
-    margin-top: 70px;
+    margin-top: 120px;
     color: #333D51;
     font-size: 30px;
 }
@@ -43,47 +41,44 @@ font-weight: lighter;
    padding: 10px;
    text-align: right;
    margin-top: 120px;
-   font-weight: 100px;
-   border-radius: 10px;
+   font-weight: 100;
    margin-right: 50px;
-   box-shadow: 2px 2px 3px 4px #CBD0D8;
+   border-left: 2px solid #F4F3EA;
     }
 
    .accent{
        font-style: italic;
        font-weight: bold;
-       color: #333D51;
-       text-transform: uppercase;
+       color: #333D51;      
 
    }
    .quote {
        font-style: italic;
        text-align: center;
        font-weight: lighter;
-       font-size: 12px;
+       font-size: 15px;
        }
 .summaries {
-margin-left: 50px;
-width: 900px;
+margin-left: 80px;
+width: 800px;
 position: relative;
-margin-top: 100px;
-border-right: 2px solid #CBD0D8;
+margin-top: 50px;
+
 }
-a {font-weight: bold;
+a {text-decoration: none;
     color: #333D51;
-    text-transform: uppercase;
-    font-size: 30px;
+}
+   a:hover{ 
+    color: #D3AC2B;
     margin-bottom: 0px;
     text-decoration: none;
     cursor: pointer;
-    }
-    :hover{ text-decoration: underline;
-    color: #D3AC2B;
 }
     
     
 #sumone{
     padding: 10px;
+    border-left: 2px solid #D3AC2B;
 }
 .sumhead{
     font-weight: bold;
@@ -103,4 +98,80 @@ a {font-weight: bold;
     color: #333D51;
     font-size: 15px;
     font-weight: lighter
-}    
+}  
+#sumtwo{
+    Padding: 10px;
+    border-left: 2px solid #D3AC2B;;
+}  
+#sumthree {
+    padding: 10px;
+    border-left: 2px solid #D3AC2B;
+}
+.bloghead {
+    text-align: left;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: light;
+       }
+.post {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif; 
+    color: #333D51;
+    text-align: left;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 20px;
+}
+#beliefs { 
+    width: 600px;
+    float: left;
+    padding: 10px;
+    font-weight: lighter;
+    border-left: 2px solid #CBD0D8;
+    margin-left: 20px;
+}
+#strengths{
+    margin-left: 800px;
+    padding: 10px;
+    width: 600px;
+    font-weight: lighter;
+    border-left: 2px solid #CBD0D8;
+    margin-right: 50px;
+    position: relative;
+
+}
+
+table{
+    border-collapse: collapse;   
+    border-spacing: 2px;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+   position: relative;
+   font-family: inherit;
+   font-size: inherit;
+    }
+table td {
+    border: 1px solid #CBD0D8; 
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    vertical-align: top;
+}
+table th{
+    border: 1px solid #CBD0D8;
+    padding: 10px;
+    vertical-align: top;
+}
+
+#posttag{ 
+    color: #333D51;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -70px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #D3AC2B;
+    
+}
