@@ -1,0 +1,30 @@
+#heads {
+    Color: #333D51; 
+    height: 200px;
+    padding: 10px;
+    box-align: center;
+    font-weight: bold; 
+    font-family:  "Lucida Bright", Georgia, serif; 
+    font-size: 80px; 
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -50px;
+    box-align: center;
+    }
+h1{ border-bottom: 2px solid #D3AC2B;
+height: 220px;}
+
+#tag{
+    text-align: center;
+    box-align: center;
+    font-style: italic;
+    margin-top: 70px;
+    color: #333D51;
+    font-size: 30px;
+}
+.accent{
+    font-style: italic;
+    font-weight: bold;
+    color: #333D51;
+    text-transform: uppercase;
+}
