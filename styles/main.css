@@ -26,7 +26,7 @@ color: #333D51;
     text-align: center;
     box-align: center;
     font-style: italic;
-    margin-top: 120px;
+    margin-top: 80px;
     color: #333D51;
     font-size: 30px;
 }
@@ -43,8 +43,7 @@ color: #333D51;
    margin-top: 120px;
    font-weight: 100;
    margin-right: 50px;
-   border-left: 2px solid #F4F3EA;
-    }
+      }
 
    .accent{
        font-style: italic;
@@ -63,6 +62,7 @@ margin-left: 80px;
 width: 800px;
 position: relative;
 margin-top: 50px;
+Border-right: 2px solid #D3AC2B
 
 }
 a {text-decoration: none;
@@ -78,7 +78,7 @@ a {text-decoration: none;
     
 #sumone{
     padding: 10px;
-    border-left: 2px solid #D3AC2B;
+    border-right: 2px solid #D3AC2B;
 }
 .sumhead{
     font-weight: bold;
@@ -101,11 +101,11 @@ a {text-decoration: none;
 }  
 #sumtwo{
     Padding: 10px;
-    border-left: 2px solid #D3AC2B;;
+    border-right: 2px solid #D3AC2B;;
 }  
 #sumthree {
     padding: 10px;
-    border-left: 2px solid #D3AC2B;
+    border-right: 2px solid #D3AC2B;
 }
 .bloghead {
     text-align: left;
