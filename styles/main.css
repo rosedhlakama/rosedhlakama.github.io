@@ -27,8 +27,9 @@ color: #333D51;
     box-align: center;
     font-style: italic;
     margin-top: 80px;
-    color: #333D51;
+    color: #CBD0D8 ;
     font-size: 30px;
+    font-weight: 50;
 }
 /* try to get a line to seperate the header form the body of the homepage */
 
@@ -54,15 +55,16 @@ color: #333D51;
    .quote {
        font-style: italic;
        text-align: center;
-       font-weight: lighter;
+       font-weight: 50;
        font-size: 20px;
+       color: #D3AC2B;
        }
 .summaries {
 margin-left: 80px;
-width: 800px;
+width: 900px;
 position: relative;
 margin-top: 50px;
-Border-right: 2px solid #D3AC2B
+Border-right: 1.5px solid #D3AC2B
 
 }
 a {text-decoration: none;
@@ -78,7 +80,7 @@ a {text-decoration: none;
     
 #sumone{
     padding: 10px;
-    border-right: 2px solid #D3AC2B;
+   
 }
 .sumhead{
     font-weight: bold;
@@ -101,11 +103,11 @@ a {text-decoration: none;
 }  
 #sumtwo{
     Padding: 10px;
-    border-right: 2px solid #D3AC2B;;
+    
 }  
 #sumthree {
     padding: 10px;
-    border-right: 2px solid #D3AC2B;
+    
 }
 .bloghead {
     text-align: left;
@@ -124,23 +126,41 @@ a {text-decoration: none;
 }
 #beliefs { 
     width: 600px;
+    height:700px;
     float: left;
     padding: 10px;
     font-weight: lighter;
     border-left: 2px solid #CBD0D8;
     margin-left: 20px;
 }
+#babyT {
+ transform: rotate(90deg);     
+  margin-left: 900px;
+  margin-right: 50px;
+  margin-top: 70px;
+  position: relative;
+  top: -650px;
+}
 #strengths{
     margin-left: 800px;
     padding: 10px;
     width: 600px;
+    height: 400px;
     font-weight: lighter;
     border-left: 2px solid #CBD0D8;
     margin-right: 50px;
+    Margin-top: 360px;
     position: relative;
 
 }
-
+#beach {
+    position: relative;
+    margin-left: 90px;
+    margin-right: 90px;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 table{
     border-collapse: collapse;   
     border-spacing: 2px;
@@ -166,7 +186,7 @@ table th{
 }
 
 #posttag{ 
-    color: #333D51;
+    color: #CBD0D8;
     font-size: 20px;
     font-style: italic;
     margin-top: -70px;
