@@ -232,7 +232,7 @@ table th{
     vertical-align: top;
 }
 
-#posttag{ 
+.posttag{ 
     color: #CBD0D8;
     font-size: 20px;
     font-style: italic;
