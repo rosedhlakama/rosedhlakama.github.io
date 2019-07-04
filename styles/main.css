@@ -25,25 +25,37 @@ line-height: 150%;
     border-bottom: 2px solid #D3AC2B;
     height: 220px;   
         }
-.nav{
+.menunav{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    font-size:12px;
-    color: #333D51;
-    font-weight:lighter;
+    flex-basis: 30%;
+    justify-content: space-around;
     align-items: center;
-    text-transform: uppercase;
-    line-height: 1.5;
-    box-sizing: inherit
+    list-style-type: none;
+    margin-top: -16px;
+    width: 600px;
+    height: 25px;
+    margin-left: 425px;
 }
-
+#menuhome{
+    order: 1;
+}
+#menuabout{
+    order: 2;
+}
+#menuhistory{
+    order: 3;
+}
+#menubooks{
+    order: 4;
+}
 #tag{
     text-align: center;
     box-align: center;
     font-style: italic;
     margin-top: 80px;
-    color: #CBD0D8 ;
+    color: #CBD0D8;
     font-size: 30px;
     font-weight: 50;
 }
