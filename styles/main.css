@@ -139,11 +139,10 @@ a {text-decoration: none;
 }
 .bloghead {
     text-align: left;
-    font-size: 65px;
+    font-size: 50px;
     text-transform: uppercase;
     font-weight: light;
-    background:  
-        
+            
     /*get back ground image */
     
        }
@@ -158,12 +157,13 @@ a {text-decoration: none;
 }
 #beliefs { 
     width: 600px;
-    height: 550px;
+    height: 650px;
     float: left;
     padding: 10px;
     font-weight: lighter;
     border-left: 2px solid #CBD0D8;
     margin-left: 20px;
+    font-size: 17px;
 }
 #babyT {
  transform: rotate(90deg);     
@@ -183,13 +183,14 @@ a {text-decoration: none;
     margin-left: 150px;
     width: 400px;
     height: 100px;
+    box-align: left;
 
 }
 #strengths{
     margin-left: 800px;
     padding: 10px;
     width: 600px;
-    height: 400px;
+    height: 450px;
     font-weight: 100;
     font-size:15px;
     border-bottom: 2px solid #CBD0D8;
@@ -216,7 +217,7 @@ table{
     margin-right: 90px;
    position: relative;
    font-family: inherit;
-   font-size: inherit;
+   font-size: 17px;
     }
 table td {
     border: 1px solid #CBD0D8; 
@@ -235,7 +236,7 @@ table th{
     color: #CBD0D8;
     font-size: 20px;
     font-style: italic;
-    margin-top: -70px;
+     margin-top: -45px;
     font-weight: lighter;
     margin-bottom: 60px;
     border-bottom: 2px solid #D3AC2B;
