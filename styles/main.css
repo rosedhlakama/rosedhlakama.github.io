@@ -141,11 +141,7 @@ a {text-decoration: none;
     text-align: left;
     font-size: 50px;
     text-transform: uppercase;
-    font-weight: light;
-     background-image: url("/styles/images/beach1.jpg")       
-    /*get back ground image */
-    
-       }
+}
 .post {
     font-family: "Futura", "Trebuchet MS", Arial, sans-serif; 
     color: #333D51;

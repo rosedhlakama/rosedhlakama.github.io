@@ -9,8 +9,12 @@
     font-size: 20px;
 }
 .p2bloghead{
-    align-content: left
-
+    widows: 1000px;
+    height: 200px;
+    font-size: 45px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #D3AC2B;
+    padding: 10px;
 }
 .posttag{ 
     color: #CBD0D8;
@@ -21,35 +25,89 @@
     margin-bottom: 60px;
     border-bottom: 2px solid #D3AC2B;
 }
+.menunav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: 30%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-top: -16px;
+    width: 600px;
+    height: 25px;
+    margin-left: 425px;
+}
 .p2brief{
-    width: 185px;
-    height: 190px;
+    width: 500px;
+    height: 210px;
+    top:100px;
+    left: 150px;
     position: relative;
+    font-size: 15px;
+    border-left: 1px solid #CBD0D8;
+    padding: 10px;
 }
 #boxmodel{
     float: right;
+    margin: -100px 200px 0 300px;
+    width: 400px;
+    height: 200px;
 }
 .p2margin{
-    width: 360px;
-    height:400px;
+    width: 600px;
+    height:280px;
+    top: 100px;
+    left: 750px;
+    margin: 10px 0 0 10px;
+    font-size: 15px;
+    border-left: 1px solid #CBD0D8;
+    padding: 10px;
     position: relative;
+}
+#cssmargin{
+    width: 250px;
+    height: 250px;
+    margin-top: -100px;
 }
 #margindemoimage{
     float: right;
-    border: 0.5px solid #CBD0D8;
+    width: 250px; 
+    height: 250px;
+    margin-top: -180px;
+}
+#movingheads{
+    width: 500px;
+    height: 250px; 
+    margin: -800px 0 25px 250px;
+
 }
 #marginnote{
-    float: right;
+    float: left;
     text-align: left;
+    width: 600px;
+    height: 50px;
+    margin: 120px 0 15px -250px;
+
 }
 .p2border{
     width: 420px;
     height: 470px;
     position: relative;
+    border-left: 1px solid #CBD0D8;
+    left: 150px;
+    top: 190px;
+    padding: 10px;
+    position: relative; 
+}
+#cssborder{
+    position: relative;
+
 }
 #borderdemoimage{
     float: right;
     border: 0.5px solid #CBD0D8;
+    position: relative;
 }
 .p2padding{
     width: 450px;
