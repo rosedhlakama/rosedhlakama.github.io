@@ -236,9 +236,51 @@ table th{
     color: #CBD0D8;
     font-size: 20px;
     font-style: italic;
-     margin-top: -45px;
+    margin-top: -45px;
     font-weight: lighter;
     margin-bottom: 60px;
     border-bottom: 2px solid #D3AC2B;
     
+}
+.pobox{
+    border-left: 3px dashed #D3AC2B
+}
+.p2brief{
+    width: 185px;
+    height: 190px;
+    position: relative;
+}
+#boxmodel{
+    float: right;
+}
+.p2margin{
+    width: 360px;
+    height:400px;
+    position: relative;
+}
+#margindemoimage{
+    float: right;
+    border: 0.5px solid #CBD0D8;
+}
+#marginnote{
+    float: right;
+    text-align: left;
+}
+.p2border{
+    width: 420px;
+    height: 470px;
+    position: relative;
+}
+#borderdemoimage{
+    float: right;
+    border: 0.5px solid #CBD0D8;
+}
+.p2padding{
+    width: 450px;
+    height: 450px;
+    position: relative;
+}
+#paddingdemoimage{
+    float: left;
+    border: 0.5px solid #CBD0D8;
 }
