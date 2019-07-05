@@ -158,3 +158,11 @@ a
     height: 550px;
  }
  /*this was very difficult for me*/
+ .site-footer{
+    height: 50px;
+    border-top: 1px solid #D3AC2B;
+    width: 1459px;
+    font-size: 10px;
+    font-weight: 50;
+    margin-top: 100px;
+}

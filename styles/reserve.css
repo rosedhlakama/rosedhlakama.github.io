@@ -155,4 +155,13 @@ a
     top: -400px;
     width: 500px;
     height: 550px;
- }
+ /* this is a reserve file incase the tech.css file mulfunctions again*/
+ /*footer*/
+.site-footer{
+    height: 50px;
+    border-top: 1px solid #D3AC2B;
+    width: 1459px;
+    font-size: 10px;
+    font-weight: 50;
+    margin-top: 100px;
+} 
