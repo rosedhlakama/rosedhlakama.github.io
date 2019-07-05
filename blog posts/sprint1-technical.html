@@ -4,6 +4,166 @@
     <title>Margin, Border and Padding</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/styles/tech.css" type="text/css">
+    <style>
+    .post {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif; 
+    color: #333D51;
+    text-align: left;
+    font-weight: lighter;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 20px;
+}
+a 
+{text-decoration: none;
+    color: #333D51;
+}
+   a:hover{ 
+    color: #D3AC2B;
+    margin-bottom: 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.accent{
+    font-style: italic;
+    font-weight: bold;
+    color: #333D51; 
+}
+.p2bloghead{
+    width: 1500px;
+    height: 200px;
+    font-size: 45px;
+    text-transform: uppercase;
+    padding: 10px;
+    position: relative;
+}
+.posttag{ 
+    color: #CBD0D8;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: -45px;
+    font-weight: lighter;
+    margin-bottom: 60px;
+    border-bottom: 2px solid #D3AC2B;
+    position: relative;
+    padding-bottom: 12px;
+    top:10px;
+
+}
+.menunav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: 30%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-top: -16px;
+    width: 600px;
+    height: 25px;
+    margin-left: 425px;
+}
+#menuhome{
+    order: 1;
+}
+#menuabout{
+    order: 2;
+}
+#menuhistory{
+    order: 3;
+}
+#menubooks{
+    order: 4;
+}
+.p2brief{
+    width: 600px;
+    height: 210px;
+    top:100px;
+    left: 150px;
+    position: relative;
+    font-size: 15px;
+    border-left: 1px solid #D3AC2B;
+    padding: 10px;
+}
+#boxmodel{
+    float: right;
+    margin: -120px 200px 0 300px;
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    position: relative;
+}
+.p2margin{
+    width: 600px;
+    height:280px;
+    top: 100px;
+    left: 750px;
+    margin: 10px 0 0 10px;
+    font-size: 15px;
+    border-left: 1px solid #D3AC2B;
+    padding: 10px;
+    position: relative;
+}
+#marginimage{
+    float: left;
+    width: 700px;
+    height: 350px; 
+    top: -190px;
+    position: relative;
+}
+
+#marginnote{
+    float: left;
+    text-align: left;
+    width: 600px;
+    height: 50px;
+    margin: 0 0 15px 0px;
+    font-size: 15px;
+    top: 100px;
+    left: 50px;
+    position: relative;
+    /*margin-left: 0px;margin-top: 150px;*/
+}
+.p2border{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    border-left: 1px solid #D3AC2B;
+    left: 0px;
+    top: -100px;
+    padding: 10px;
+    font-size: 15px;
+}
+#borderimage{
+    float: right;
+    position: relative;
+    width: 700px;
+    height: 350px;
+    top: -400px;
+    left: -20px;
+    position: relative;
+}
+
+.p2padding{
+    width: 650px;
+    height: 355px;
+    position: relative;
+    float: right;
+    border-left: 1px solid #D3AC2B;
+    font-size: 15px;
+    padding: 10px;
+    left: 550px;
+    top: 50px;
+}
+#paddingimage{
+    float: left;
+    position: relative;
+    left: 50px;
+    top: -400px;
+    width: 500px;
+    height: 550px;
+ }
+    </style>
   </head>
   
   <body class="post">
@@ -23,7 +183,7 @@
       <p> <span class="accent"> Margin</span> ,<span class="accent">Border </span>and <span class="accent">Padding</span> 
         are CSS style rules used for layout and positioning of HTML elements on a webpage. </p>
         <p> 
-          The image to the left, the box model, illustrates the margin, border and padding style rules as layered boxes.
+          The image to the right, the box model, illustrates the margin, border and padding style rules as layered boxes.
           <br> 
           The element to which the changes can be applied is shown in light blue. This section is what would contain the HTML element, text or image. This is also known as the box model and its size, width and height can be adjusted.
            </p>
@@ -36,7 +196,7 @@
         <span class="accent">Margin </span>describes the outermost portion of the box model (the yellow space), creating space around an element, outside of any defined borders.
         Margins offer a simpler way to position elements. <br>
         Margins are set using lengths (pixels or em), percentages, or the keyword auto and can have negative values.
-        (see example of the moving heading to the right)
+        (see example of the moving heading to the left)
         There are four margin values;
         <ol id="marginvaluelist">
           <li>Margin-top</li>
@@ -54,27 +214,23 @@
     <p id="marginnote">*when using the shorthand as in the yellow box, values must be in this order: top, right, bottom, and left.</p>
    
     <div class="p2border">
-    <p>
-      The <span class="accent">border</span> property is a simple way of drawing lines around elements which is useful for separating different parts of a webpage. Borders can make webpages more readable and add a graphical flair to images. Border accepts multiple values. You can see a full list on <a href="https://www.w3schools.com/css/css_border.asp"> w3schools site.</a>
-      The main values are: <br>
-        <ol id="bordervaluelist">
-         <li>Border-width - Thickness of the border, measured in px, em, rem, vh and vw units.
-         </li>
-         <li>Border-style - Type of line drawn around the element. Various values include solid, dashed, and dotted. There are more options available.
-         </li>
-         <li>Color -The color of the border.</li>
+      <p> The <span class="accent"> border </span>property is a simple way of drawing lines around elements which is useful for separating different parts of the webpage. 
+       Borders can make webpages more readable and add a graphical flair to images. Border accepts multiple values. 
+       You can see a full list on <a href="https://www.w3schools.com/css/css_border.asp"> w3schools site.</a>
+       The three core values are;
+        <ol>
+         <li>Border-width, which is the thickness of the border, measured in px, em, rem, vh and vw units. </li>
+         <li>Border-style for the type of line drawn around the element. Various values include solid, dashed and dotted.</li>
+          <li>Color of the border. </li>
         </ol>
-       The demo to the right illustrates some of the border values. For more on border style properties visit the 
-          <a href="https://css-tricks.com/almanac/properties/b/border/">CSS tricks page.</a>    
-    </p>  
+       The demo to the right illustrates only some of the many border values. 
+       For more on border style properties check out <a href="https://css-tricks.com/almanac/properties/b/border/"> CSS tricks page.</a>
+      </p>
     </div>
-
-
-
+  
     <img id= "borderimage" src="/styles/images/borderdemo.PNG">
  
-
-      <div class="p2padding">
+   <div class="p2padding">
       <p>
       <span class="accent">Padding</span> describes the innermost part of the box model which creates gaps between the element and the box section.
       It is prettier to leave a gap between the text or element and the edge of the box section. 
@@ -88,18 +244,18 @@
           <li> Padding bottom</li>
           <li> Padding-left</li>
         </ol>
-    You could either define;
-    <ul>
-      <li> all four values,</li>
-      <li> two or three of the values and the others are assumed, or</li>
-      <li> just one value which is then applied to all four padding properties</li>
-    </ul>
-    The Padding properties can impact the width of the element such that any padding added will in turn add to the width of the element. 
-    For more on padding check out this helpful information on <a href="https://css-tricks.com/almanac/properties/p/padding/"> CSS Tricks.</a> 
-  </p>
-</div>
+      You could either define;
+        <ul>
+         <li> all four values,</li>
+         <li> two or three of the values and the others are assumed, or</li>
+         <li> just one value which is then applied to all four padding properties</li>
+        </ul>
+      The Padding properties can impact the width of the element such that any padding added will in turn add to the width of the element. 
+      For more on padding check out this helpful information on <a href="https://css-tricks.com/almanac/properties/p/padding/"> CSS Tricks.</a> 
+       </p>
+    </div>
 
-<img id="paddingimage" src="/styles/images/paddingdemo.PNG">
+      <img id="paddingimage" src="/styles/images/paddingdemo.PNG">
  
     <!-- this is a comment. -->
   
