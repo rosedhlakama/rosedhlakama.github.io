@@ -142,7 +142,7 @@ a {text-decoration: none;
     font-size: 50px;
     text-transform: uppercase;
     font-weight: light;
-            
+     background-image: url("/styles/images/beach1.jpg")       
     /*get back ground image */
     
        }
@@ -242,9 +242,9 @@ table th{
     border-bottom: 2px solid #D3AC2B;
     
 }
-.pobox{
-    border-left: 3px dashed #D3AC2B
-}
+/*start of css particular to technical blog post*/
+
+
 .p2brief{
     width: 185px;
     height: 190px;
@@ -283,4 +283,26 @@ table th{
 #paddingdemoimage{
     float: left;
     border: 0.5px solid #CBD0D8;
+}
+/*images start here*/
+#cssmargin{
+
+}
+#movingheads{
+
+}
+#cssborder{
+
+}
+#borderdemo{
+
+}
+#csspadding{
+    
+}
+#nopadding{
+
+}
+#withpadding{
+    
 }

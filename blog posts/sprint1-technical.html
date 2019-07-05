@@ -1,38 +1,118 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Stories and Legends (PAGE title) </title>
+    <title>Margin, Border and Padding</title>
     <meta charset="UTF-8">
-    <link href="styles/main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/styles/main.css" type="text/css">
   </head>
   
-  <body class="postbody">
+  <body class="post">
     <div class="bloghead"> 
     <h1>Margin, Border, and Padding</h1>
     </div>
     <div class="posttag"> The difference between Margin, Border, and Padding.</div>
     
     <ul class="menunav">
-        <li id="menuhome"> <a href="index.html">Home</a></li>
+        <li id="menuhome"> <a href="/index.html">Home</a></li>
         <li id="menuabout"><a href="about-me.html">About</a></li>
         <li id="menuhistory">History</li>
         <li id="menubooks">Books</li>
       </ul>
 
-    <h2>E kore e mau i a koe, he wae kai pakiaka.
-         <em>A foot accustomed to running over roots makes the speediest runner.</em> </h2> (Optional SUB title) </h2>
-    <h3>10 November 2010</h3>
-    
-    <p>
-      Te Houtaewa was the fastest runner of his day and played many pranks on his peoples enemies. One morning his mother wanted kumara for the hangi (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a short distance away. He agreed to fetch the kumara and told his mother to prepare the hangi.
-    </p>
-    <p>
-      Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara as he wanted to annoy some Te Rarawa people who lived there. Carrying two large baskets for the kumara, he ran like the wind, completing the journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in the few hours it takes a good hangi to heat up properly. On reaching Ahipara, he went straight to the people's kumara pataka (storehouse for the sweet potatoes) situated at the foot of the hill Whangatauatia.
-    </p>
-    <p>
-      While Te Houtaewa was filling his baskets with kumara he was spotted stealing the kai (food). He was immediately recognised.
-    </p>
-    
+    <div class="p2brief">
+      <p> <span class="accent"> Margin</span> ,<span class="accent">Border </span>and <span class="accent">Padding</span> 
+        are CSS style rules used for layout and positioning of HTML elements on a webpage. </p>
+        <p> 
+          The image to the left, the box model, illustrates the margin, border and padding style rules as layered boxes.
+          <br> 
+          The element to which the changes can be applied is shown in light blue. This section is what would contain the HTML element, text or image. This is also known as the box model and its size, width and height can be adjusted.
+           </p>
+    </div>
+
+    <img id=boxmodel src="/styles/images/boxmodel.PNG">
+
+    <div class="p2margin">
+      <p> 
+        <span class="accent">Margin </span>describes the outermost portion of the box model (the yellow space), creating space around an element, outside of any defined borders.
+        Margins offer a simpler way to position elements. <br>
+        Margins are set using lengths (pixels or em), percentages, or the keyword auto and can have negative values.
+        (see example of the moving heading to the right)
+        There are four margin values;
+        <ol id="marginvaluelist">
+          <li>Margin-top</li>
+          <li>Margin-right</li>
+          <li>Margin-bottom</li>
+          <li>Margin-left</li>
+             </li>
+        </ol>
+        <a href="https://css-tricks.com/almanac/properties/m/margin/">
+          For more on margin check out the CSS tricks</a>
+      </p>
+    </div>
+<div id="margindemoimage">
+  <img id="cssmargin" src="/styles/images/margincss.PNG">
+  <img id="movingheads" src="/styles/images/moving heading.PNG">
+</div>
+<p id="marginnote">*when using the shorthand as in the yellow box, values must be in this order: top, right, bottom, and left.</p>
+   
+<div class="p2border">
+  <p>The <span class="accent">border</span> property is a simple way of drawing lines around elements 
+    which is useful for separating different parts of a webpage. Borders can make webpages more readable and add a graphical flair to images. </p>
+    <p>Border accepts multiple values. You can see a full list on 
+      <a href="https://www.w3schools.com/css/css_border.asp"> w3schools site.</a>
+      The main values are: <br>
+      <ol id="bordervaluelist">
+        <li>Border-width |Thickness of the border in measured in px, em, rem, vh and vw units.
+            </li>
+        <li>Border-style |Type of line drawn around the element. Various values include solid, dashed, and dotted. There are more options available.
+                 </li>
+        <li>Color |The color of the border.
+                    </li>
+      </ol>
+      </p>
+      <p>
+          The demo to the right illustrates some of the border values.
+          For more on border style properties visit the 
+          <a href="https://css-tricks.com/almanac/properties/b/border/">CSS tricks page.</a> 
+                 
+      </p>
+      <div id="borderdemoimage">
+        <img id= "cssborder" src="/styles/images/cssborder.PNG">
+        <img id="borderdemo" src="/styles/images/border demo.PNG">
+      </div>
+<div class="p2padding">
+  <p>
+    <span class="accent">Padding</span> describes the innermost part of the box model which creates gaps between the element and the box section.
+    It is prettier to leave a gap between the text or element and the edge of the box section. 
+    This way text is easier to read.
+    <br>
+    There are four padding values which can be set by lengths (px or em) percentages. Similar to margins, padding values are;
+    <br>
+    <ol id="paddingvaluelist">
+      <li> Padding-top</li>
+      <li> Padding-right</li>
+      <li> Padding Bottom</li>
+      <li> Padding-left</li>
+    </ol>
+    You could either define;
+    <ul>
+      <li> all four values,</li>
+      <li> two or three of the values and the others are assumed, or</li>
+      <li> just one value which is then applied to all four padding properties</li>
+    </ul>
+    <p> The Padding properties can impact the width of the element such that any padding added will in turn add to the width of the element. 
+        For more on padding check out this helpful information on
+        <a href="https://css-tricks.com/almanac/properties/p/padding/"> CSS Tricks.</a> 
+        </p>
+  </p>
+</div>
+<div id=paddingdemoimage>
+  <img id="csspadding" src="/styles/images/csspadding.PNG">
+  <img id="nopadding" src="/styles/images/nopadding.PNG">
+  <img id="withpadding" src="/styles/images/withpadding.PNG">
+
+</div>
+  
     <!-- this is a comment. -->
   
   </body>
