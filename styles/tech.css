@@ -165,4 +165,7 @@ a
     font-size: 10px;
     font-weight: 50;
     margin-top: 100px;
+    position: fixed;
+    left:0px;
+   bottom:0px;
 }
