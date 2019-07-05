@@ -9,7 +9,7 @@
     font-size: 20px;
 }
 .p2bloghead{
-    widows: 1000px;
+    width: 1000px;
     height: 200px;
     font-size: 45px;
     text-transform: uppercase;
@@ -64,17 +64,17 @@
     padding: 10px;
     position: relative;
 }
+#margindemoimage{
+    float: right;
+    width: 50%; 
+    margin-top: -180px;
+}
 #cssmargin{
     width: 250px;
     height: 250px;
     margin-top: -100px;
     margin-left: -700px;
     /* margin-left: -700px;*/
-}
-#margindemoimage{
-    float: right;
-    width: 50%; 
-    margin-top: -180px;
 }
 #movingheads{
     width: 500px;
@@ -104,17 +104,17 @@
     position: relative; 
     font-size: 15px;
 }
-#cssborder{
-    position: relative;
-    height: 220px;
-    width: 265px;
-/*height: 220px;width: 265px;*/
-}
 #borderdemoimage{
     float: right;
     position: relative;
     width: 50%;
     top: -200px;
+}
+#cssborder{
+    position: relative;
+    height: 220px;
+    width: 265px;
+/*height: 220px;width: 265px;*/
 }
 #borderdemo{
     width: 50%;
