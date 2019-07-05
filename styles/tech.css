@@ -50,7 +50,7 @@
 #boxmodel{
     float: right;
     margin: -100px 200px 0 300px;
-    width: 400px;
+    width: 350px;
     height: 200px;
 }
 .p2margin{
@@ -107,7 +107,6 @@
 }
 #borderdemoimage{
     float: right;
-    border: 0.5px solid #CBD0D8;
     position: relative;
 }
 .p2padding{
@@ -119,5 +118,4 @@
 }
 #paddingdemoimage{
     float: left;
-    border: 0.5px solid #CBD0D8;
-}
+ }
