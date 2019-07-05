@@ -284,7 +284,27 @@ table th{
 
 
 /*this is the site footer*/
-
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  /*for blog post footers*/
+  .post{
+    min-height: 100%;
+  }
+  .post-content{
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  /*for index file footer*/
+  .page{
+      min-height: 100%;
+  }
+  .page-content{
+      padding: 20px;
+      padding-bottom: 50px;
+  }
+  /*site footer style*/
 .site-footer{
     height: 50px;
     border-top: 1px solid #D3AC2B;
