@@ -3,10 +3,25 @@
     font-family: "Futura", "Trebuchet MS", Arial, sans-serif; 
     color: #333D51;
     text-align: left;
-    font-weight: 100;
+    font-weight: lighter;
     text-decoration: none;
     margin-left: 60px;
     font-size: 20px;
+}
+a 
+{text-decoration: none;
+    color: #333D51;
+}
+   a:hover{ 
+    color: #D3AC2B;
+    margin-bottom: 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.accent{
+    font-style: italic;
+    font-weight: bold;
+    color: #333D51; 
 }
 .p2bloghead{
     width: 1000px;
@@ -14,6 +29,7 @@
     font-size: 45px;
     text-transform: uppercase;
     padding: 10px;
+    position: relative;
 }
 .posttag{ 
     color: #CBD0D8;
@@ -23,6 +39,7 @@
     font-weight: lighter;
     margin-bottom: 60px;
     border-bottom: 2px solid #D3AC2B;
+    position: relative;
 }
 .menunav{
     display: flex;
@@ -36,6 +53,18 @@
     width: 600px;
     height: 25px;
     margin-left: 425px;
+}
+#menuhome{
+    order: 1;
+}
+#menuabout{
+    order: 2;
+}
+#menuhistory{
+    order: 3;
+}
+#menubooks{
+    order: 4;
 }
 .p2brief{
     width: 500px;
@@ -52,6 +81,8 @@
     margin: -100px 200px 0 300px;
     width: 350px;
     height: 200px;
+    border-radius: 5px;
+    positiom:relative;
 }
 .p2margin{
     width: 600px;
@@ -64,26 +95,13 @@
     padding: 10px;
     position: relative;
 }
-#margindemoimage{
-    float: right;
+#marginimage{
+    float: left;
     width: 50%; 
     margin-top: -180px;
+    position: relative;
 }
-#cssmargin{
-    width: 250px;
-    height: 250px;
-    margin-top: -100px;
-    margin-left: -700px;
-    /* margin-left: -700px;*/
-}
-#movingheads{
-    width: 500px;
-    height: 250px; 
-    margin: -800px 0 25px 250px;
-    margin-left:2px;
-    margin-top: -790px;
-/* margin-left: 2px;margin-top: -790px;*/
-}
+
 #marginnote{
     float: left;
     text-align: left;
@@ -91,6 +109,7 @@
     height: 50px;
     margin: 150px 0 15px 0px;
     font-size: 15px;
+    position: relative;
     /*margin-left: 0px;margin-top: 150px;*/
 }
 .p2border{
@@ -104,23 +123,14 @@
     position: relative; 
     font-size: 15px;
 }
-#borderdemoimage{
+#borderimage{
     float: right;
     position: relative;
     width: 50%;
     top: -200px;
-}
-#cssborder{
     position: relative;
-    height: 220px;
-    width: 265px;
-/*height: 220px;width: 265px;*/
 }
-#borderdemo{
-    width: 50%;
-    height: 70px;
-    margin-bottom: 150px;
-}
+
 .p2padding{
     width: 450px;
     height: 450px;
@@ -131,26 +141,8 @@
     left: 800px;
     top: 90px;
 }
-#paddingdemoimage{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+#paddingimage{
     float: left;
-    width: 800px;
-    margin-top: -50px;
+    position: relative;
  }
- #csspadding{
-    order: 1;
-    width: 400px;
-    }
- #nopadding{
-    order: 2;
-    width: 400px;
- }
- #withpadding{
-    order: 3;
-    width: 400px;
-    margin-left: 355px;
- }
+ 

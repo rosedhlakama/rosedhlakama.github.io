@@ -95,7 +95,8 @@ margin-top: 50px;
 Border-right: 1.5px solid #D3AC2B
 
 }
-a {text-decoration: none;
+a 
+{text-decoration: none;
     color: #333D51;
 }
    a:hover{ 
