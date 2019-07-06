@@ -28,6 +28,7 @@ body {
         width: 600px;
         height: 25px;
         margin-left: 425px;
+        margin-bottom: 30px;
     }
     #menuhome{
         order: 1;
