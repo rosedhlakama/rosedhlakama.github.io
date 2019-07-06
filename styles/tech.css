@@ -7,6 +7,8 @@
     text-decoration: none;
     margin-left: 60px;
     font-size: 20px;
+    width: 900px;
+    margin: 0 auto;
 }
 a 
 {text-decoration: none;
@@ -157,35 +159,12 @@ a
     width: 500px;
     height: 550px;
  }
-
  iframe{
-    position: relative;
-    box-align: center;
-    width: 600px;
-    height: 300px;
-    left: 0px;
-    top: 200px;
-    margin-top: 200px;
-  }
- /*this was very difficult for me*/
- html, body {
-    height: 100%;
-    margin: 0;
-  }
-  .post{
-    min-height: 100%;
-  }
-  .post-content{
-    padding: 20px;
-    padding-bottom: 50px;
-  }
-   .site-footer{
-    height: 50px;
-    border-top: 1px solid #D3AC2B;
-    font-size: 10px;
-    font-weight: 50;
-    margin-top: 100px;
-    position: fixed;
-    left:0px;
-   bottom:0px;
-}
+   position: relative;
+   box-align: center;
+   width: 600px;
+   height: 300px;
+   left: 0px;
+   top: 200px;
+   margin-top: 200px;
+ }
