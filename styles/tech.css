@@ -157,6 +157,16 @@ a
     width: 500px;
     height: 550px;
  }
+
+ iframe{
+    position: relative;
+    box-align: center;
+    width: 600px;
+    height: 300px;
+    left: 0px;
+    top: 200px;
+    margin-top: 200px;
+  }
  /*this was very difficult for me*/
  html, body {
     height: 100%;
