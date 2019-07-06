@@ -71,7 +71,7 @@ line-height: 150%;
    text-align: right;
    margin-top: 120px;
    font-weight: 100;
-   margin-right: 50px;
+   margin-right: 150px;
       }
 
    .accent{
@@ -88,8 +88,8 @@ line-height: 150%;
        color: #D3AC2B;
        }
 .summaries {
-margin-left: 80px;
-width: 900px;
+margin-left: 200px;
+width: 700px;
 position: relative;
 margin-top: 50px;
 Border-right: 1.5px solid #D3AC2B
