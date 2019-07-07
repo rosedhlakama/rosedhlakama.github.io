@@ -221,7 +221,8 @@ a
     
     
 }
-#bmenunav{display: flex;
+#bmenunav{
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     flex-basis: 30%;
@@ -401,6 +402,173 @@ html, body {
   .page-content{
       padding: 20px;
       padding-bottom: 50px;
+  }
+  /*site footer style*/
+.site-footer{
+    height: 50px;
+    border-top: 1px solid #D3AC2B;
+    font-size: 10px;
+    font-weight: 50;
+    margin-top: 100px;
+    position: fixed;
+    left:0px;
+   bottom:0px;
+}
+
+/*as in the sprint2 style sheet*/
+body {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif; 
+    color: #333D51;
+    line-height: 150%;
+    }
+    /* color scheme is Hex: 333D51 / D3AC2B / CBD0D8 / F4F3EA */
+/*Post inform style*/
+.post {
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif; 
+    color: #333D51;
+    text-align: left;
+    font-weight: 100;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 15px;
+}
+    /*Menu navigation bar*/
+   
+    .accent{
+        font-style: italic;
+        font-weight: bold;
+        color: #333D51;   
+    }
+
+    a {
+        text-decoration: none;
+        color: #333D51;
+}
+   a:hover{ 
+    color: #D3AC2B;
+    margin-bottom: 0px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.quote {
+    font-style: italic;
+    text-align: center;
+    font-weight: 50;
+    font-size: 20px;
+    color: #D3AC2B;
+    }
+#p3head{
+    text-transform: uppercase;
+    width: 1000px; /*new*/
+    height: 50px;
+    border-bottom: 2px solid #D3AC2B;/*new*/
+    text-align: left;
+    font-size: 50px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: auto;
+    top: 50px;
+    position: relative;
+
+}
+/*syle for boxes*/
+.obj{
+    border-radius: 10px;
+    box-shadow:  0 10px 6px -6px #777;
+    background-color: #333D51;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    color: #F4F3EA;
+
+}
+/*flex-boxs*/
+#objects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    top: 30px; 
+    width: 700px;
+    margin: auto;
+    position: relative;
+
+}
+.obj-goal{
+    order: 1;
+    margin: 25px 25px auto 25px;
+}
+.obj-skill{
+    order: 2;
+    margin:25px 25px 0 25px;
+}
+.obj-strength{
+    order: 3;
+    margin:25px 25px 0 25px;
+}
+.obj-balance{
+    order: 4;
+    margin: 25px 25px 0 25px;
+}
+/*Hex: 333D51 / D3AC2B / CBD0D8 / F4F3EA */
+/*headings*/
+.h3{
+    color: #F4F3EA;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+/*learning community box*/
+.community{
+    box-align: center;
+    position: relative;
+    width: 850px;
+    height: 250px;
+    padding: 12px;
+    box-shadow:  0 10px 6px -6px #777;
+    top: 50px; /*new*/ 
+    position: relative; 
+    margin: auto;
+}
+.hh3{
+    color:#CBD0D8;
+}
+
+.s2quote{
+    box-align: center;
+    position: relative;
+    padding: 10px;
+    border-bottom: 2px dotted #CBD0D8;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    top: 100px;
+}
+/*sticky footer*/
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  /*for blog post footers*/
+  .post{
+    min-height: 100%;
+  }
+  .post-content{
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  /*for index file footer*/
+  .page{
+      min-height: 100%;
+  }
+  .page-content{
+      padding: 20px;
+      padding-bottom: 50px;
+      
   }
   /*site footer style*/
 .site-footer{
