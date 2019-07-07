@@ -2,10 +2,20 @@ body {
 font-family: "Futura", "Trebuchet MS", Arial, sans-serif; 
 color: #333D51;
 line-height: 150%;
+background-color: #D3AC2B;
 }
 /* color scheme is Hex: 333D51 / D3AC2B / CBD0D8 / F4F3EA */
 
+.page-content{
+    font-family:  "Futura", "Trebuchet MS", Arial, sans-serif;
+    margin: auto;
+    background-color: ghostwhite;
+    word-spacing: 0.3em;
+    font-size: 15px;
+    height: auto;
+    width: 1000px;
 
+}
 #heads {
     Color: #333D51; 
     height: 200px;
@@ -16,7 +26,7 @@ line-height: 150%;
     font-size: 80px; 
     text-align: center;
     text-transform: uppercase;
-    margin-top: -50px;
+    margin-top: 10px;
     box-align: center; 
   
         }
@@ -33,10 +43,10 @@ line-height: 150%;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
-    margin-top: -16px;
     width: 600px;
     height: 25px;
-    margin-left: 425px;
+    margin: 50px auto 0 auto;
+    font-size: 15px;
 }
 #menuhome{
     order: 1;
@@ -54,7 +64,6 @@ line-height: 150%;
     text-align: center;
     box-align: center;
     font-style: italic;
-    margin-top: 80px;
     color: #CBD0D8;
     font-size: 30px;
     font-weight: 50;
@@ -62,17 +71,32 @@ line-height: 150%;
 /* try to get a line to seperate the header form the body of the homepage */
 
 #welcome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: 30%;
+    justify-content: space-around;
+    align-items: flex-end;
+    box-align: center;
    color: #333D51;
-   width: 350px;
-   height: 200px;
-   box-align: right;
-   float: right;
+   width: 700px;
+   height: 350px;
    padding: 10px;
    text-align: right;
-   margin-top: 120px;
-   font-weight: 100;
-   margin-right: 150px;
-      }
+   margin: auto;
+  position: relative;
+  }
+
+  #listlabel{
+      position: relative;
+      text-transform: uppercase;
+      font-size: 20px;
+      text-align: center;
+      border-bottom: 1px solid #D3AC2B;
+      margin: auto;
+      width: 500px;
+      top: 20px;
+  }
 
    .accent{
        font-style: italic;
@@ -88,13 +112,18 @@ line-height: 150%;
        color: #D3AC2B;
        }
 .summaries {
-margin-left: 200px;
-width: 700px;
-position: relative;
-margin-top: 50px;
-Border-right: 1.5px solid #D3AC2B
-
-}
+    display: flex;
+    margin: auto;
+    width: 900px;
+    position: relative;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-around;
+    top: 50px;
+   }
 a 
 {text-decoration: none;
     color: #333D51;
@@ -109,6 +138,10 @@ a
     
 #sumone{
     padding: 10px;
+    order: 1;
+    width:350px;
+    height: 400px;
+    order: 1;
    
 }
 .sumhead{
@@ -116,26 +149,33 @@ a
     color: #333D51;
     text-transform: uppercase;
     font-size: 30px;
-    margin-bottom: 0px;
+    margin:5px auto 0 autoS;
 }
 .title{
     text-transform: uppercase;
     font-weight: lighter;
     color: #D3AC2B;
     font-size: 20px;
-    margin-top: 0px;
+    margin:auto;
     }
 .sumpara{
     color: #333D51;
     font-size: 15px;
-    font-weight: lighter
+    font-weight: lighter;
+    margin: 0 auto 15px auto;
 }  
 #sumtwo{
     Padding: 10px;
+    order: 2;
+    width:350px;
+    height: 400px;
     
 }  
 #sumthree {
     padding: 10px;
+    order: 3;
+    width:350px;
+    height: 400px;
     
 }
 .bloghead {
