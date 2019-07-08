@@ -178,6 +178,12 @@ a
     height: 400px;
     
 }
+#sumfour {
+    padding: 10px;
+    order: 4;
+    width: 350px;
+    height: 400px;
+}
 /*start of about me post css*/
 
 .post-content{
