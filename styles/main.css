@@ -203,6 +203,8 @@ a
     text-decoration: none;
     font-size: 15px;
     background-color: #D3AC2B;
+    min-height: 100%;
+       
 }
 .bloghead {
     text-align: left;
@@ -393,9 +395,7 @@ html, body {
     margin: 0;
   }
   /*for blog post footers*/
-  .post{
-    min-height: 100%;
-  }
+ 
   .post-content{
     padding: 20px;
     padding-bottom: 50px;
@@ -686,4 +686,50 @@ html, body {
 }
 .p4paras{
     padding: 5px;
+}
+/* Sprint 3 technical starts here */
+.post5{
+    font-family: "Futura", "Trebuchet MS", Arial, sans-serif; 
+    color: #333D51;
+    text-align: left;
+    font-weight: 100;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #D3AC2B;
+    min-height: 100%;
+}
+/* Grid */
+#page5-container{
+    width: 900px;
+    background-color: ghostwhite;
+    font-family:  "Futura", "Trebuchet MS", Arial, sans-serif;
+    margin: auto;
+    word-spacing: 0.3em;
+    font-size: 15px;
+    display: grid;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    grid-template-columns: [col-start] 800px [col-end];
+    grid-template-rows: [row-start]100px [row2]50px [row3]auto [row-end];
+    grid-template-areas:
+    "header"
+    "menu"
+    "response";    
+}
+#page5-head{
+    order: 1;
+    grid-area:header;
+
+
+}
+.p5menunav{
+    order: 2;
+    grid-area: menu;
+
+}
+#response{
+    order: 3;
+    grid-area: response;
+    height: auto;
 }
