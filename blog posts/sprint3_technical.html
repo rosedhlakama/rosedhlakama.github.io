@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sprint3-Technical</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles/main.css" type="text/css">
+     </head>
+    <!-- this is a html comment. -->
+    <!--comment-->
+<body>
+<div class="post">
+    <div id="page5-container"><!--grid container-->
+        <div id="page5-head"><!--grid Item 1-->
+            <h1>DOM and all</h1>
+        </div><!--heading-->
+        <ul class="menunav"> <!--grid item 2-->
+                <li id="menuhome"> <a href="/index.html">Home</a></li>
+                <li id="menuabout"><a href="about-me.html">About</a></li>
+                <li id="menuhistory">History</li>
+                <li id="menubooks">Books</li>
+        </ul>
+        <div id="response" >
+            <p id="Q1">
+                <h3 class="QUE">An analogy to describe the differences between HTML and CSS</h3>
+                <br>
+                HTML and CSS are both web developing languages that are interpreted by web browsers like Firefox and Chrome. These languages work together but have distinct purposes. 
+                HTML is the content of the website. That is the words and pictures that you see on a webpage. CSS determines that content’s style and layout. Things link font, size, colours and position on a webpage.
+                Take for example the images below. The first image on the left shows the webpages HTML only. The second image on the right shows the same webpage now with very little and simple CSS applied for style and layout. What a difference a little CSS can make.
+            </p>
+
+            <p id="Q2">
+                <h3>Explain control flow and loops using an example process from everyday life.</h3>
+                <br>
+                Control flow is the order in which the computer executes statements in a script. 
+                By default, code is executed from the first line to the last line. 
+                That is unless the computer encounters conditionals, breaks or loops. 
+                Loops are a way of repeating an action again and again as long as the specified condition remains true.
+                In the movie Groundhog Day, weatherman Phil Connors repeat the same day over and over again.
+                He even dies on some of those day but wakes-up in the morning to relive the day again. 
+                He is stuck in a time loop. 
+                Its like the universe was running the code for Groundhog Day on a loop until a condition was met. 
+                Phil only escaped the loop when he met that condition. It’s a love story of course. 
+                When he fell in love and became a better person the loop was broken. 
+            </p>
+
+            <p id="Q3">
+                <h3>Describe what the DOM is and an example of how you might interact with it</h3>
+                <br>
+                DOM is an abbreviation for Document Object Model, and it is the means by which JavaScript interacts with objects within an HTML document. 
+                It’s a programming interface. It is the most important component for working with HTML documents. 
+                Its is a hierarchical structure that browsers uses to make sense of and produce the awesome web pages you use daily.
+                Like JavaScript the DOM is object oriented and can be modified with a scripting language.
+                HTML, CSS and JavaScript are equal partners in the creation of the web and what you see in your browser.
+                HTML is the contents of your page and its structure. Simply what you can see is all mostly HTML.
+                CSS is the styling language that gives HTML some style and appeal. 
+                CSS is the Karl Lagerfeld of the web developer world. 
+                The DOM is the super glue that brings all languages together to create a functional webpage.
+                The DOM is a powerful web development tool which I use to create and add JavaScript to HTML elements. 
+            </p>
+
+            <p id="Q4">
+                <h3>Explain the difference between accessing data from arrays and objects.</h3>
+                An array stores multiple datum in one variable. For example, an array of the first five chapters from the Handmaid’s tails;
+                <span class="code">Var Handmaid = [‘Night’, ‘Shopping’, ‘Night’, ‘Waiting Room’, ‘Nap’] </span>
+                Order matters in an array just like the chapters of a book are read in sequence. 
+                To access data stored in an array we use indexes starting at 0. So that would mean Handmaid[3] would point to chapter IV ‘Waiting Room’ because [0] refers to  ‘Night’.
+                Arrays are mutable and the data contained in an array can be changed with respect to the order of storage using the following commands;
+                <ul id="Arr">
+                    <li>.push() – add a new value to the end</li>
+                    <li>.pop() – remove last value</li>
+                    <li>.shift() – remove the first value</li>
+                    <li>.unshift() – add new value to the start</li>
+                </ul>
+                Objects store data in a structured way using the key: value format. They are flexible and allow for arbitrary combination of strings, numbers, Booleans, arrays, functions and objects. 
+                For example, an object containing data about my dog;
+                <span class="code">
+                        var myDog = {
+                            "name": "Zitha", // this is a string
+                            "legs": 4,
+                            "tails": 1,
+                            "friends": ["none"], // this is an array 
+                          }                     
+                </span>
+                Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.
+                There are two ways to access the properties of an object: dot notation (.) and bracket notation ([]), similar to an array.
+                (.) is used when you already know the name of the property you are trying to access.
+                [] is used if the property you are trying to access has a space in its name. bracket notation can still be used on object properties without spaces.
+                <span class="code">myDog.name = ‘Xena’</span>// will access the object and change my dog’s name to Xena.
+            </p>
+
+            <p id="Q5">
+                <h3>Explain what functions are and why they are useful.</h3>
+                <br>
+                A function is a code wrapper that groups statements together making your code reusable. 
+                A function is first declared then called or invoked. 
+                All of the code between the curly braces will be executed every time the function is called.
+
+                A function declared
+                <span class="code"> 
+                        function sayHello(){
+                            document.getElementById("divide").innerHTML = "HELLO!";
+                           }                    
+                </span>
+                A function called
+                <span class="code">
+                        function sayHello(){
+                            document.getElementById("divide").innerHTML = "HELLO!";
+                           }
+                    sayHello();                   
+                </span>
+                Web page output
+                HELLO!
+                
+                And to disect the code;
+                <ol class="funclist">
+                    <li><span class="accent">Function</span> instructs javascript to treat this block of code between these {} as a function.</li>
+                    <li><span class="accent">sayHello</span> is the actual name of the function.</li>
+                    <li><span class="accent">()</span> is the opening and closing parentheses which would contain the argument.</li>
+                    <li><span class="accent">{}</span> enclose any statements adjacent to that function inside of which is the statement that makes your function actually do something. In this example the content is the instruction to display Hello! in the space with id “divide”.</li>
+                    <li>Lastly is the <span class="accent">function call sayHello()</span> which can be viewed as pressing the = button on a calculator</li>
+                </ol>
+
+        </div> <!--response-->
+
+
+    </div><!--container-->
+
+</div><!--page5-->
+
+</body>
