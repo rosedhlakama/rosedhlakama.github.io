@@ -707,7 +707,7 @@ html, body {
     word-spacing: 0.3em;
     font-size: 15px;
     display: grid;
-    justify-content: start;
+    justify-content: center;
     align-content: start;
     grid-template-columns: [col-start] 800px [col-end];
     grid-template-rows: [row-start]100px [row2]50px [row3]auto [row-end];
@@ -718,8 +718,17 @@ html, body {
 }
 #page5-head{
     order: 1;
-    grid-area:header;
+    grid-area: header;
+    justify-self: center;
 
+}
+#p5header{
+    border: none;
+    margin: auto;
+    text-align: center;
+    height: 70px; 
+    font-size: 50px;
+    padding-top: 20px;
 }
 .p5menunav{
     order: 2;
@@ -731,12 +740,13 @@ html, body {
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
-    width: 600px;
-    height: 25px;
+    width: 800px;
+    height: 45px;
     margin: auto;
-    top: -50px;
     font-size: 15px;
     position: relative;
+    border-bottom: 2px solid #D3AC2B;
+    padding: 5px
 }
 #menuhome{
     order: 1;
@@ -780,7 +790,7 @@ html, body {
 }
 #Q4{
     position: relative;
-    padding: 50px;
+    padding: 5px;
 }
 #Arr{
     list-style-type:none;
@@ -789,10 +799,9 @@ html, body {
 .code{
     color: #333D51;
     background-color: #F4F3EA;
-    border: 0.5px solid #CBD0D8;
-    /* CBD0D8 / F4F3EA */
-    border-radius: 10px;
+    border: 0.5px dotted #CBD0D8;
+         /* CBD0D8 / F4F3EA */
 }
 .funclist{
-    list-style-type: none;
+    list-style-type: circle;
 }

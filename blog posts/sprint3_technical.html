@@ -11,7 +11,7 @@
 <div class="post5">
     <div id="page5-container"><!--grid container-->
         <div id="page5-head"><!--grid Item 1-->
-            <h1>DOM and all</h1>
+            <h2 id=p5header>Sprint Three Technical</h1>
         </div><!--heading-->
         <ul class="p5menunav"> <!--grid item 2-->
                 <li id="menuhome"> <a href="/index.html">Home</a></li>
@@ -43,7 +43,6 @@
                 Phil only escaped the loop when he met that condition. It’s a love story of course. 
                 When he fell in love and became a better person the loop was broken. 
             </p>
-
             <p id="Q3">
                 <h3 class="QUE">Describe what the DOM is and an example of how you might interact with it</h3>
                 <br>
@@ -58,12 +57,14 @@
                 The DOM is the super glue that brings all languages together to create a functional webpage.
                 The DOM is a powerful web development tool which I use to create and add JavaScript to HTML elements. 
             </p>
-
-            <p id="Q4">
+            <div id="Q4">
+                <p>
                 <h3 class="QUE">Explain the difference between accessing data from arrays and objects.</h3>
                 <br>
                 An array stores multiple datum in one variable. For example, an array of the first five chapters from the Handmaid’s tails;
+                <br>
                 <span class="code">Var Handmaid = [‘Night’, ‘Shopping’, ‘Night’, ‘Waiting Room’, ‘Nap’] </span>
+                <br>
                 Order matters in an array just like the chapters of a book are read in sequence. 
                 To access data stored in an array we use indexes starting at 0. So that would mean Handmaid[3] would point to chapter IV ‘Waiting Room’ because [0] refers to  ‘Night’.
                 Arrays are mutable and the data contained in an array can be changed with respect to the order of storage using the following commands;
@@ -75,44 +76,46 @@
                 </ul>
                 Objects store data in a structured way using the key: value format. They are flexible and allow for arbitrary combination of strings, numbers, Booleans, arrays, functions and objects. 
                 For example, an object containing data about my dog;
+                <br>
                 <span class="code">
-                        var myDog = {
-                            "name": "Zitha", // this is a string
-                            "legs": 4,
-                            "tails": 1,
-                            "friends": ["none"], // this is an array 
+                        var myDog = {<br>
+                            "name": "Zitha", // this is a string<br>
+                            "legs": 4,<br>
+                            "tails": 1,<br>
+                            "friends": ["none"], // this is an array<br> 
                           }                     
                 </span>
+                <br>
                 Objects are similar to arrays, except that instead of using indexes to access and modify their data, you access the data in objects through what are called properties.
                 There are two ways to access the properties of an object: dot notation (.) and bracket notation ([]), similar to an array.
                 (.) is used when you already know the name of the property you are trying to access.
                 [] is used if the property you are trying to access has a space in its name. bracket notation can still be used on object properties without spaces.
                 <span class="code">myDog.name = ‘Xena’</span>// will access the object and change my dog’s name to Xena.
             </p>
+            </div>
 
             <p id="Q5">
-                <h3>Explain what functions are and why they are useful.</h3>
+                <h3 class="QUE">Explain what functions are and why they are useful.</h3>
                 <br>
                 A function is a code wrapper that groups statements together making your code reusable. 
                 A function is first declared then called or invoked. 
-                All of the code between the curly braces will be executed every time the function is called.
+                All of the code between the curly braces will be executed every time the function is called.<br>
 
-                A function declared
+                A function declared<br>
                 <span class="code"> 
                         function sayHello(){
                             document.getElementById("divide").innerHTML = "HELLO!";
                            }                    
-                </span>
-                A function called
+                </span><br>
+                A function called<br>
                 <span class="code">
                         function sayHello(){
                             document.getElementById("divide").innerHTML = "HELLO!";
                            }
                     sayHello();                   
-                </span>
+                </span><br>
                 Web page output
-                HELLO!
-                
+                HELLO! <br>                
                 And to disect the code;
                 <ol class="funclist">
                     <li><span class="accent">Function</span> instructs javascript to treat this block of code between these {} as a function.</li>
