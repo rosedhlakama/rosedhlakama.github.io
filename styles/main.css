@@ -184,6 +184,12 @@ a
     width: 350px;
     height: 400px;
 }
+#sumfive{
+    padding: 10px;
+    order: 5;
+    width: 350px;
+    height: 400px;
+}
 /*start of about me post css*/
 
 .post-content{
