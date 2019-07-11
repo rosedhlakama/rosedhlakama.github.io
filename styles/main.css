@@ -707,7 +707,6 @@ html, body {
     word-spacing: 0.3em;
     font-size: 15px;
     display: grid;
-    flex-direction: column;
     justify-content: start;
     align-content: start;
     grid-template-columns: [col-start] 800px [col-end];
@@ -721,15 +720,79 @@ html, body {
     order: 1;
     grid-area:header;
 
-
 }
 .p5menunav{
     order: 2;
     grid-area: menu;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: 30%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 600px;
+    height: 25px;
+    margin: auto;
+    top: -50px;
+    font-size: 15px;
+    position: relative;
+}
+#menuhome{
+    order: 1;
+}
+#menuabout{
+    order: 2;
+}
+#menuhistory{
+    order: 3;
+}
+#menubooks{
+    order: 4;
 
 }
 #response{
     order: 3;
     grid-area: response;
     height: auto;
+    width: 790px;
+    margin: auto;
+    justify-self: center;
+}
+#Q1{
+    position: relative;
+    padding: 5px;
+}
+.QUE{
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: #D3AC2B;
+}
+#Q2{
+    position: relative;
+    padding: 5px;
+}
+#Q3{
+    position: relative;
+    padding: 5px;
+}
+#Q4{
+    position: relative;
+    padding: 50px;
+}
+#Arr{
+    list-style-type:none;
+
+}
+.code{
+    color: #333D51;
+    background-color: #F4F3EA;
+    border: 0.5px solid #CBD0D8;
+    /* CBD0D8 / F4F3EA */
+    border-radius: 10px;
+}
+.funclist{
+    list-style-type: none;
 }
