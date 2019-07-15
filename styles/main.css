@@ -913,3 +913,40 @@ html, body {
     align-self: start;
     justify-self: center;
 }
+
+/* css for sprint 4 cultural blog */
+.p6bloghead{
+    justify-self: center;
+    grid-area: header;
+}
+#p6header{
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    height: 70px; 
+}
+.post6-container{
+    width: 950px;
+    background-color: ghostwhite;
+    font-family:  "Futura", "Trebuchet MS", Arial, sans-serif;
+    margin: auto;
+    word-spacing: 0.3em;
+    font-size: 15px;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    grid-template-columns: [col-start] 320px [col2] 630px [col-end];
+    grid-template-rows: [row-start]50px [row2]100px [row3]100px [row4]100px [row5]50px 
+    [row6]100px [row7]100px [row8]100px [row9]100px [row10]100px [row-end];
+    grid-template-areas:
+    "Neuroplasticity Neuroplasticity"
+    "P6-Q1 P6-R1"
+    "P6-Q2 P6-R2"
+    "P6-Q3 P6-R3"
+    "growthMindset growthMindset"
+    "P6-Q4 P6-R4"
+    "P6-Q5 P6-R5"
+    "P6-Q6 P6-R6"
+    "P6-Q8 P6-R8"
+    "P6-Q7 mindsetVideo"
+}
