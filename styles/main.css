@@ -190,6 +190,19 @@ a
     width: 350px;
     height: 400px;
 }
+#sumsix{
+    padding: 10px;
+    order: 6;
+    width: 350px;
+    height: 400px;
+}
+#sumseven{
+    padding: 10px;
+    order: 7;
+    width: 350px;
+    height: 400px;
+}
+
 /*start of about me post css*/
 
 .post-content{
@@ -810,4 +823,93 @@ html, body {
 }
 .funclist{
     list-style-type: circle;
+}
+
+/* Page 7 Sprint 4 Technical blog post */
+.page7-container{
+    width: 950px;
+    background-color: ghostwhite;
+    font-family:  "Futura", "Trebuchet MS", Arial, sans-serif;
+    margin: auto;
+    word-spacing: 0.3em;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    grid-template-columns: [col-start] 470px [col2] 470px [col-end];
+    grid-template-rows: [row-start]100px [row2]60px [row3]200px [row4]200px [row5]200px [row-end];
+    grid-template-areas:
+    "header header"
+    "menu menu"
+    "para1 para1"
+    "para2 para3"
+    "para4 para5";
+}
+.p7bloghead{
+   justify-self: center;
+    grid-area: header;
+}
+#p7header{
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    height: 70px;  
+}
+.p5menunav{
+    grid-area: menu;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: 30%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    width: 900px;
+    height: 45px;
+    margin: auto;
+    font-size: 15px;
+    position: relative;
+    border-bottom: 2px solid #D3AC2B;
+    padding: 5px
+}
+#menuhome{
+    order: 1;
+}
+#menuabout{
+    order: 2;
+}
+#menuhistory{
+    order: 3;
+}
+#menubooks{
+    order: 4;
+}
+.p7para1{
+    grid-area: para1;
+    padding: 10px;
+    margin: auto;
+}
+.p7para2{
+    grid-area: para2;
+    padding: 10px;
+    align-self: start;
+    justify-self: center;
+}
+.p7para3{
+    grid-area: para3;
+    padding: 10px;
+    align-self: start;
+    justify-self: center;
+}
+.p7para4{
+    grid-area: para4;
+    padding: 10px;
+    align-self: start;
+    justify-self: center;
+}
+.p7para5{
+    grid-area: para5;
+    padding: 10px;
+    align-self: start;
+    justify-self: center;
 }
