@@ -933,8 +933,6 @@ html, body {
     word-spacing: 0.3em;
     font-size: 15px;
     display: grid;
-    justify-content: center;
-    align-content: start;
     grid-template-columns: [col-start] 320px [col2] 630px [col-end];
     grid-template-rows: [row-start]50px [row2]100px [row3]100px [row4]100px [row5]50px 
     [row6]100px [row7]100px [row8]100px [row9]100px [row10]100px [row-end];
@@ -950,3 +948,85 @@ html, body {
     "P6-Q8 P6-R8"
     "P6-Q7 mindsetVideo"
 }
+
+/* color scheme is Hex: 333D51 / D3AC2B / CBD0D8 / F4F3EA */
+#Neuroplasticity{
+    grid-area: Neuroplasticity;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #D3AC2B;
+}
+.P6-Q1{
+    grid-area: P6-Q1;
+    justify-self: end;
+}
+.P6-R1{
+    grid-area: P6-R1;
+    justify-self: start;
+    align-self: center;
+}
+.P6-Q2{
+    grid-area: P6-Q2;
+    justify-self: end;
+}
+.P6-R2{
+    grid-area: P6-R2;
+    justify-self: start;
+    align-self: center;
+}
+.P6-Q3{
+    grid-area: P6-Q3;
+    justify-self: end;
+}
+.P6-R3{
+    grid-area: P6-R3;
+    justify-self: start;
+    align-self: center;
+}
+#growthMindset{
+    grid-area: Neuroplasticity;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #D3AC2B;
+}
+.P6-Q4{
+    grid-area: P6-Q4;
+    justify-self: end;
+}
+.P6-R4{
+    grid-area: P6-R4;
+    justify-self: start;
+    align-self: center;
+}
+.P6-Q5{
+    grid-area: P6-Q5;
+    justify-self: end;
+}
+.P6-Q6{
+    grid-area: P6-Q6;
+    justify-self: end;
+}
+.P6-R6{
+    grid-area: P6-R6;
+    justify-self: start;
+    align-self: center;
+}
+.P6-Q8{
+    grid-area: P6-Q8;
+    justify-self: end;
+}
+.P6-R8{
+    grid-area: P6-R8;
+    justify-self: start;
+    align-self: center;
+}
+.P6-Q7{
+    grid-area: P6-Q7;
+    justify-self: end;
+}
+#mindsetVideo{
+    grid-area: mindsetVideo;
+    justify-self: start;
+    align-self: center;
+}
+
