@@ -123,7 +123,7 @@ background-color: #D3AC2B;
     align-items: center;
     align-content: space-around;
     top: 50px;
-   }
+}
 a 
 {text-decoration: none;
     color: #333D51;
@@ -199,6 +199,12 @@ a
 #sumseven{
     padding: 10px;
     order: 7;
+    width: 350px;
+    height: 400px;
+}
+#sumeight{
+    padding: 10px;
+    order: 8;
     width: 350px;
     height: 400px;
 }
