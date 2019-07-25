@@ -1108,8 +1108,8 @@ html, body {
     grid-template-areas:
         "p8Box1 ."
         "p8Box1 ."
-        ". p8Box2"
-        ". p8Box2"
+        "image p8Box2"
+        "image p8Box2"
         "p8Box3 ."
         "p8Box3 ."
         ". ."; 
@@ -1122,7 +1122,12 @@ html, body {
     border: solid 1px #F4F3EA;
     padding: 5px;
 }
-
+#blackGirlReflects{
+    grid-area: image;
+    align-self: center;
+    justify-self:center;
+    border-radius: 6%;
+}
 
 .p8Para2{
     grid-area: p8Box2;
