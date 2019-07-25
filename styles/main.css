@@ -1064,3 +1064,70 @@ html, body {
     align-self: center;
 }
 
+/* css style instructions for page 8, sprint 5 cultural blog post */
+.P8page-content{
+    font-family:  "Futura", "Trebuchet MS", Arial, sans-serif;
+    margin: auto;
+    background-color: ghostwhite;
+    word-spacing: 0.3em;
+    font-size: 15px;
+    height: auto;
+    width: 1050px;
+}
+.p8bloghead{
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    height: 70px;     
+    position: relative;
+    top: 30px;
+}
+
+.p8header{
+    position: relative;
+    top: 50px;
+    margin: 0;
+}
+
+.post8-container{
+    display: grid; 
+    justify-self: center;
+    margin: auto;
+    height: auto;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    grid-template-columns: [col-start] 500px [col1] 500px [colend];
+    grid-template-rows: [row-start]200px [row1]150px [row2]200px [row3]230px [row4]200px [row5]230px [row6]100px [rowend];
+    grid-template-areas:
+        "p8Box1 ."
+        "p8Box1 ."
+        ". p8Box2"
+        ". p8Box2"
+        "p8Box3 ."
+        "p8Box3 ."
+        ". ."; 
+
+}
+
+.p8Para1{
+    grid-area: p8Box1;
+    border-radius: 5%;
+    border: solid 1px #F4F3EA;
+    padding: 5px;
+}
+
+
+.p8Para2{
+    grid-area: p8Box2;
+    border: solid 1px #F4F3EA;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+.p8Para3{
+    grid-area: p8Box3;
+    border: solid 1px #F4F3EA;
+    border-radius: 5%;
+    padding: 5px;
+}
