@@ -424,6 +424,7 @@ html, body {
   .post-content{
     padding: 20px;
     padding-bottom: 50px;
+    height: auto;
   }
   /*for index file footer*/
   .page{
@@ -500,6 +501,15 @@ body {
     top: 50px;
     position: relative;
 
+}
+.LPpart2{
+    box-align: center;
+    position: relative;
+    width: 850px;
+    height: autp;
+    padding: 12px;
+    position: relative; 
+    margin: auto;
 }
 /*syle for boxes*/
 .obj{
